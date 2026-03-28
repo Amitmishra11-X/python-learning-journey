@@ -1,2 +1,3 @@
-motorcyles.remove('honda')
-print(motorcyles)
+CarsNew=['bmw', 'audi', 'toyota', 'subaru']
+CarsNew.reverse()
+print(CarsNew)
