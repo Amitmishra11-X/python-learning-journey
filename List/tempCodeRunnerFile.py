@@ -1,3 +1,3 @@
-CarsNew=['bmw', 'audi', 'toyota', 'subaru']
-CarsNew.reverse()
-print(CarsNew)
+## list comperhensions 
+for value**2 in list(range(1, 10)):
+    print(value)
