@@ -1,3 +1,4 @@
-## list comperhensions 
-for value**2 in list(range(1, 10)):
-    print(value)
+players = ['charles', 'martin', 'michel', 'florene', 'eli']
+print("these are my first three players for play:")
+for player in players[:3]:
+    print(player)
