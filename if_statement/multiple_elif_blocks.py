@@ -15,4 +15,8 @@ print(f"your admission cost is ${price}")
 requested_toppings = ['mushrooms', 'extra cheese']
 if 'mushrooms' in requested_toppings:
     print("adding mushrooms")
-if 
+if 'pepproni' in requested_toppings:
+    print("adding pepproni")
+if 'extra chesse' in requested_toppings:
+    print('adding extra chesse')
+print ("\nfinished making your Pizza")
