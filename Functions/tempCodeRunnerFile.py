@@ -1,10 +1,9 @@
 
-unprinted_designs = ['phone case', 'robot pendent', 'dodecahedron']
-completed_models = []
-while unprinted_designs:
-    current_design = unprinted_designs.pop()
-    print(f"Printing model : {current_design}")
-    completed_models.append(current_design)
-print(f"\nthe following models have been printed : ")
-for completed_model in completed_models:
-    print(completed_model)
+def make_pizza(size, *toppings):
+    """Print the list of toppings that have been requested."""
+    print(f"\nMaking a {size}-inch pizza with following toppings: ")
+    for topping in toppings:
+        print(f"- {topping}")
+    
+make_pizza(16, 'pepproni')
+make_pizza(12, 'mushroom', 'green peppers', 'extra chesse')
