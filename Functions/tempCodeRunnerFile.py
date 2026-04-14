@@ -1,9 +1,3 @@
-
-def make_pizza(size, *toppings):
-    """Print the list of toppings that have been requested."""
-    print(f"\nMaking a {size}-inch pizza with following toppings: ")
-    for topping in toppings:
-        print(f"- {topping}")
-    
-make_pizza(16, 'pepproni')
-make_pizza(12, 'mushroom', 'green peppers', 'extra chesse')
+from pizza1 import pizza_make as mp
+mp(16, 'chesse','pepperoni' )
+mp(10, 'chesse')
